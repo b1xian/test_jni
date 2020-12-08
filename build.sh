@@ -11,9 +11,9 @@ cd ../../../../../../
 
 cp ${java_path}/HelloWorld.h ${jni_path}/include
 
-# 2. 编写头文件实现 HelloWorld.c, 略
+# 2. 编写头文件实现 HelloWorld.cpp, 略
 
-# 3. 编译so
+# 3. 编译native library
 mkdir build
 cd build
 cmake ..
